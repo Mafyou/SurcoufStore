@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34321.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SurcoufStore.Api", "SurcoufStore\SurcoufStore.Api.csproj", "{2B41E474-AAD9-4655-BD52-09F8D6052C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurcoufStore.AppHost", "SurcoufStore.AppHost\SurcoufStore.AppHost.csproj", "{97C74CE8-A002-4AA8-8980-F9BB0F2F756F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SurcoufStore.ServiceDefaults", "SurcoufStore.ServiceDefaults\SurcoufStore.ServiceDefaults.csproj", "{46DE8BA0-4950-4CA0-853B-2B13215A2859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurcoufStore.Domain", "SurcoufStore.Domain\SurcoufStore.Domain.csproj", "{534C72DB-EFA9-435C-973F-715179410B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurcoufStore.Application", "SurcoufStore.Application\SurcoufStore.Application.csproj", "{D49C1184-39DA-4F40-AC01-FC7AFF3735BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurcoufStore.Infrastructure", "SurcoufStore.Infrastructure\SurcoufStore.Infrastructure.csproj", "{829C5008-9B54-4CA0-B307-965A49585078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B41E474-AAD9-4655-BD52-09F8D6052C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B41E474-AAD9-4655-BD52-09F8D6052C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B41E474-AAD9-4655-BD52-09F8D6052C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B41E474-AAD9-4655-BD52-09F8D6052C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C74CE8-A002-4AA8-8980-F9BB0F2F756F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C74CE8-A002-4AA8-8980-F9BB0F2F756F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C74CE8-A002-4AA8-8980-F9BB0F2F756F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C74CE8-A002-4AA8-8980-F9BB0F2F756F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DE8BA0-4950-4CA0-853B-2B13215A2859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DE8BA0-4950-4CA0-853B-2B13215A2859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DE8BA0-4950-4CA0-853B-2B13215A2859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DE8BA0-4950-4CA0-853B-2B13215A2859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534C72DB-EFA9-435C-973F-715179410B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534C72DB-EFA9-435C-973F-715179410B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534C72DB-EFA9-435C-973F-715179410B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534C72DB-EFA9-435C-973F-715179410B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49C1184-39DA-4F40-AC01-FC7AFF3735BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49C1184-39DA-4F40-AC01-FC7AFF3735BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49C1184-39DA-4F40-AC01-FC7AFF3735BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49C1184-39DA-4F40-AC01-FC7AFF3735BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829C5008-9B54-4CA0-B307-965A49585078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829C5008-9B54-4CA0-B307-965A49585078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829C5008-9B54-4CA0-B307-965A49585078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829C5008-9B54-4CA0-B307-965A49585078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C595CA74-2689-49B7-8BE8-B0284BC3ECAF}
+	EndGlobalSection
+EndGlobal

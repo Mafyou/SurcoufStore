@@ -1,0 +1,8 @@
+@SurcoufStore_HostAddress = https://localhost:7085
+
+GET {{SurcoufStore_HostAddress}}/getTotalSellValue/
+Accept: application/json
+
+###
+GET {{SurcoufStore_HostAddress}}/getInventory/
+Accept: application/json
